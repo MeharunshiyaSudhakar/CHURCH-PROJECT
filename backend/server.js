@@ -15,7 +15,7 @@ const childrenAdminRoutes = require("./routes/childrenAdmin");
 const childrenFoldersRoutes = require("./routes/childrenFolders");
 const subscriptionRoutes = require("./routes/subscriptions");
 const broadcastRoutes = require("./routes/broadcast");
-const messagesRoutes = require("./routes/messages");
+const messagesRoutes = require("./routes/messagesAdmin");
 
 require("./cron/dailyVerse");
 
